@@ -1,0 +1,19 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "tailwindcss -i ./original.css -o ./public/css.css --watch",
+    "css:build": "tailwindcss -i ./original.css -o ./public/css.css --minify",
+    "code": "prettier --write ./public/*.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "prettier": "^3.0.3"
+  }
+}
